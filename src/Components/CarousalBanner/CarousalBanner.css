@@ -3,7 +3,7 @@
 }
 
 .cusvideobackground {
-    filter: brightness(70%);
+    filter: brightness(110%);
     position: fixed;
     overflow-x: hidden;
 }

@@ -5,7 +5,7 @@
     align-items: center;
     font-size: 1.5rem;
     font-weight: bold;
-    /* text-transform: uppercase; */
+    letter-spacing: 1.5px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -15,10 +15,11 @@
     top: 0;
     left: 0;
     transition: .3s ease-in;
+    scroll-behavior: smooth;
 }
 
 .navbar-bg {
-    background: rgba(255, 255, 255, 0.904);
+    background: rgba(255, 255, 255, 0.76);
 }
 
 .navbar-logo {
@@ -31,8 +32,8 @@
 }
 
 .navbar-logo img {
-    width: 120px;
-    height: 32px;
+    width: 150px;
+    height: 42px;
 }
 
 .fa-firstdraft {
@@ -86,7 +87,6 @@
 @media only screen and (min-width:350px) and (max-width: 960px) {
     .navbar {
         background-color: whitesmoke;
-        overflow-x: hidden;
     }
     .NavbarItems {
         position: relative;
