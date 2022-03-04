@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    /* Hide scrollbars */
+}
+
+code {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 350px) {
+    .custom-h1 {
+        font-size: 50px;
+    }
+}

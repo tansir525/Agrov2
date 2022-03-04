@@ -1,0 +1,9 @@
+.customCarosal {
+    overflow-x: hidden;
+}
+
+.cusvideobackground {
+    filter: brightness(90%);
+    position: fixed;
+    overflow-x: hidden;
+}

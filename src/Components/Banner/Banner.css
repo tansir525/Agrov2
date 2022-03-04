@@ -1,0 +1,164 @@
+/* .custom-h1 {
+    font-size: 110px;
+} */
+
+.cusbannartext {
+    padding: 80px;
+}
+
+.bannerimg {
+    filter: brightness(90%)
+}
+
+.responsive {
+    margin: 20px 80px;
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* 
+@media only screen and (max-width: 600px) {
+    .custom-h1 {
+        font-size: 30px;
+    }
+    .responsive {
+        margin: 10px 20px;
+        padding: 20px;
+    }
+    .glassEffect {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .custom-h1 {
+        font-size: 30px;
+    }
+    .responsive {
+        margin: 10px 20px;
+        padding: 20px;
+    }
+    .glassEffect {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .custom-h1 {
+        font-size: 40px;
+    }
+    .responsive {
+        margin: 5px 15px;
+        padding: 20px;
+    }
+    .glassEffect {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .custom-h1 {
+        font-size: 30px;
+    }
+    .responsive {
+        padding: 20px;
+    }
+    .glassEffect {
+        display: none;
+    }
+} */
+
+@media (min-width: 400px) {
+    .custom-h1 {
+        font-size: 30px;
+    }
+    .responsive {
+        margin: 10px 20px;
+        padding: 20px;
+    }
+    .glassEffect {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .custom-h1 {
+        font-size: 30px;
+    }
+    .responsive {
+        margin: 10px 20px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .custom-h1 {
+        font-size: 40px;
+    }
+    .responsive {
+        margin: 10px 20px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .custom-h1 {
+        font-size: 70px;
+    }
+    .responsive {
+        margin: 10px 20px;
+        padding: 20px;
+    }
+    .glassEffect {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .custom-h1 {
+        font-size: 70px;
+    }
+    .responsive {
+        margin: 10px 20px;
+        padding: 20px;
+    }
+    .glassEffect {
+        display: block;
+    }
+}
+
+@media (min-width: 1400px) {
+    .custom-h1 {
+        font-size: 110px;
+    }
+    .responsive {
+        margin: 10px 20px;
+        padding: 20px;
+    }
+    .glassEffect {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 570px) {
+    .custom-h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .responsive {
+        margin: 10px 20px;
+        padding: 20px;
+        overflow-x: hidden;
+    }
+    .glassEffect {
+        display: none;
+    }
+    .bp {
+        text-align: center;
+    }
+    .bh {
+        text-align: center;
+    }
+}

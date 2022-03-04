@@ -1,0 +1,23 @@
+.customBottomBanner {
+    background-image: url(../../Assets/btb.png);
+    height: 400px;
+    width: 100%;
+    background-repeat: repeat;
+    background-position: cover;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.custombottombannerbackground {
+    background-color: #f1f1f1;
+    padding: 30px;
+}
+
+.cusbottom {
+    padding: 15px;
+    margin-bottom: 60px;
+}
+
+.cus-img-caro {
+    height: 400px;
+}

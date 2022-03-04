@@ -1,0 +1,29 @@
+.bg-mycolor {
+    background-color: #ffff;
+    height: 70px;
+}
+
+.custom-nav {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0px 20px;
+    opacity: 0.75;
+    border-radius: 4px;
+}
+
+.custom-nav:hover,
+.nav-link:active {
+    opacity: 5;
+    background-color: #008000;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 4px;
+    transition-duration: 1.8s;
+}
+
+.custom-nav.active {
+    opacity: 5;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 4px;
+    background-color: #008000;
+}
