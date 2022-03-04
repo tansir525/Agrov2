@@ -8,6 +8,15 @@ import logo from '../Assets/Asset 16.png'
 function Navbar() {
   const [click, setClick] = useState(false);
   
+  const [color, setColor] = useState(false)
+  const changeColor =()=>{
+    if(window.scrollY >= 90){
+      setColor(true)
+    }else{
+      setColor(false)
+    }
+  }
+window.addEventListener('scroll',changeColor)
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -17,7 +26,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar' >
+      <nav className={color ? 'navbar navbar-bg' : 'navbar'}>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu} >
           <img src={logo} alt="" srcset="" />
         </Link>

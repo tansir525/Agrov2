@@ -1,6 +1,6 @@
 import React from 'react';
 import './CarousalBanner.css'
-import video from '../../Assets/The Farmer_1.MOV'
+import video from '../../Assets/ezgif.com-gif-maker (1).mp4'
 
 const CarousalBanner = () => {
     return (
