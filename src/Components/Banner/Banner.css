@@ -7,7 +7,7 @@
 }
 
 .bannerimg {
-    filter: brightness(90%)
+    filter: brightness(70%)
 }
 
 .responsive {
@@ -15,6 +15,15 @@
     padding: 20px;
     width: 100%;
     height: 100vh;
+}
+
+.bh {
+    color: #008000;
+    font-weight: 900;
+}
+
+.bp {
+    color: white;
 }
 
 
@@ -148,9 +157,29 @@
         text-align: center;
     }
     .responsive {
-        margin: 10px 20px;
-        padding: 20px;
         overflow-x: hidden;
+        background-image: url(../../Assets/image.jpg);
+        margin-left: 0px;
+        margin-top: 0px;
+        background-size: cover;
+        background-position: center;
+        filter: brightness(90%);
+    }
+    .cusbannartext {
+        margin-top: 18vh;
+    }
+    .bh {
+        font-size: 25px;
+        letter-spacing: 3;
+        margin-bottom: 15px;
+        color: aliceblue;
+    }
+    .bp {
+        color: #008000;
+        font-size: 20px;
+    }
+    .custom-h1 {
+        display: none;
     }
     .glassEffect {
         display: none;

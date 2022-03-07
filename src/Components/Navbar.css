@@ -1,3 +1,30 @@
+.textarealogo {
+    margin-left: 20px;
+    padding-top: 5px;
+    text-align: end;
+}
+
+.color1 {
+    color: black;
+}
+
+.color2 {
+    color: #fff;
+}
+
+.lt1 {
+    font-size: 20px;
+    letter-spacing: -0.5px;
+}
+
+.lt2 {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -42px;
+    font-size: 12px;
+    letter-spacing: -0.3px;
+}
+
 .navbar {
     height: 90px;
     display: flex;
@@ -20,6 +47,8 @@
 
 .navbar-bg {
     background: rgba(255, 255, 255, 0.76);
+    height: 90px;
+    transition: all .5s ease-in-out;
 }
 
 .navbar-logo {
@@ -32,8 +61,8 @@
 }
 
 .navbar-logo img {
-    width: 150px;
-    height: 42px;
+    width: 29px;
+    height: 30px;
 }
 
 .fa-firstdraft {
@@ -55,6 +84,7 @@
     display: flex;
     align-items: center;
     height: 80px;
+    text-decoration: none;
 }
 
 .nav-links {
@@ -86,7 +116,7 @@
 
 @media only screen and (min-width:350px) and (max-width: 960px) {
     .navbar {
-        background-color: whitesmoke;
+        background-color: rgba(0, 128, 0, 0.5);
     }
     .NavbarItems {
         position: relative;
@@ -98,9 +128,9 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 68vh;
+        height: 50vh;
         position: absolute;
-        top: 80px;
+        top: 60px;
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
