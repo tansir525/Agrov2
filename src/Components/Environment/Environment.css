@@ -1,8 +1,8 @@
-.environmentbg {
+/* .environmentbg {
     background: url(../../Assets/Environment/BG_GREEN.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 
 /* .devide {
@@ -58,7 +58,7 @@
 
 .container .card .imgBx {
     position: absolute;
-    top: 55%;
+    top: 48%;
     transform: translateY(-50%);
     z-index: 10000;
     height: 100px;
@@ -95,9 +95,13 @@
 .container .card .contentBx h2 {
     position: relative;
     font-weight: 600;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     color: black;
     margin: 0;
+}
+
+.contentBx h2 {
+    font-size: 22px;
 }
 
 .container .card .contentBx .size,
@@ -152,7 +156,7 @@
 }
 
 .container .card .contentBx .size span:hover {
-    background: #9bdc28;
+    background: #9adc2867;
 }
 
 .container .card .contentBx .color span {
@@ -164,7 +168,8 @@
     cursor: pointer;
 }
 
-.container .card .contentBx .color span:nth-child(2) {
+
+/* .container .card .contentBx .color span:nth-child(2) {
     background: #9bdc28;
 }
 
@@ -174,12 +179,12 @@
 
 .container .card .contentBx .color span:nth-child(4) {
     background: #e91e63;
-}
+} */
 
 .container .card .contentBx a {
     display: inline-block;
     padding: 10px 20px;
-    background: #fff;
+    background: #008000;
     border-radius: 4px;
     margin-top: 10px;
     text-decoration: none;
