@@ -25,7 +25,7 @@ const SubBanner = () => {
         <div className='bg'>
         <Container>
         <div className='subbanner text-left mb-5 mt-5'>
-            <h1> <img className='sub-logo mb-2 mt-5' src={logomini} alt="" srcset="" /> Industries and sectors</h1>
+            <h1>  OUR INDUSTRIES</h1>
           
         </div>
         <div className='mb-5'>
@@ -39,7 +39,7 @@ const SubBanner = () => {
      
       <CardContent>
           <Typography className='typoicon' variant="h5" component="div">
-            DAIRY
+           AGRO-FARMING
           </Typography>
           
         </CardContent>
@@ -67,7 +67,7 @@ const SubBanner = () => {
     <img style={{width: '250px', height: '209px' }}  src={lightning} alt="lightning" srcset="" />
     <CardContent>
           <Typography className='typoicon' variant="h5" component="div">
-           EXPORT
+           MARKETING
           </Typography>
           
         </CardContent>
@@ -80,7 +80,7 @@ const SubBanner = () => {
         <img style={{width: '250px', height: '209px' }}  src={tractor} alt="tractor" srcset="" />
         <CardContent>
           <Typography className='typoicon' variant="h5" component="div">
-          FARMING
+          EXPORTING
           </Typography>
           
         </CardContent>

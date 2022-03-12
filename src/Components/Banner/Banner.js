@@ -1,9 +1,5 @@
 import React from 'react';
-import {  Col, Row } from 'react-bootstrap';
-// import banner from '../../Assets/banner-image-1-1.png'
 
-import GlassCard from '../GlassCard/GlassCard';
-import CustomButton from '../styles/Button.style';
 
 import './Banner.css'
 
@@ -11,43 +7,28 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <>
+        <div className='banner-bg '>
         <div className='responsive'>
-       <div className='mt-5'>
-        <Row className=' d-flex justify-content-around align-items-center mt-5'>
-        <Col lg={5}  md={5} sm={12} xs={12} >
-        <div className='cusbannartext'>
-            
-            <h1 className='custom-h1' > <span style={{color: '#008000', letterSpacing: '5px'}}>AGRO</span><span style={{color: 'white'}}>VERSE</span></h1>
-            <h5 className='bh'>Redefining the Future of Agro-Food Production</h5>
-            <p className=' bp'> We are working closely with farmers, sourcing raw materials directly from them and authentic suppliers, processing and manufacturing agro-products maintaining high moral standards to ensure the utmost quality of the produce; and delivering the products to customers to satisfy their needs. </p>
+      
        
-            <CustomButton>Explore us</CustomButton>
+        <div className='page-wrapper'>
+            <div className='swipe-in-text'>
+                <h1 className='text'>LET IT GROW.</h1>
+
+            </div>
+           
         </div>
        
+          
 
 
 
-        </Col>
-
-
-    <Col  lg={7}  md={7} sm={12} xs={12}  className='glassEffect'>
-    {/* <Image className='bannerimg' fluid
-      alt="banner"
-      src={banner}
-      layout="intrinsic"
-      width={710}
-      height={650}
-    />     */}
     
-    <GlassCard/>
-
-        </Col>
-        </Row>      
+       
     
-        </div> 
         </div>
-        </>
+        </div>
+      
     );
 };
 

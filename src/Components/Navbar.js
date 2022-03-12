@@ -63,7 +63,7 @@ window.addEventListener('scroll',changeColor)
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-item'>
             <Link to='/' className='nav-links' onClick={closeMobileMenu} >
-              Home
+              HOME
             </Link>
           </ul>
           
@@ -74,18 +74,18 @@ window.addEventListener('scroll',changeColor)
               onClick={closeMobileMenu}
               
             >
-             About
+             ABOUT
             </Link>
           </ul>
 
 
-          <ul className="nav-item">
+          <ul className="drop">
           {navItems.map((item) => {
-            if (item.title === "Services") {
+            if (item.title === "SERVICES") {
               return (
                 <ul
                   key={item.id}
-                  className='nav-item'
+                  className=''
                   onMouseEnter={() => setDropdown(true)}
                   onMouseLeave={() => setDropdown(false)}
                 >
@@ -137,7 +137,7 @@ window.addEventListener('scroll',changeColor)
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Contact Us
+              CONTACT US
             </Link>
           </ul>
           {/* <ul>

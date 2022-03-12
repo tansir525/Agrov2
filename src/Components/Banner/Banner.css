@@ -1,6 +1,57 @@
-/* .custom-h1 {
-    font-size: 110px;
-} */
+/* text animation */
+
+.swipe-in-text {
+    position: relative;
+}
+
+.swipe-in-text :after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 100%;
+    width: 0%;
+    bottom: 0;
+    z-index: 1;
+    background-color: #008000;
+    animation: swipe-in-text 1s ease-out 1s forwards;
+}
+
+.text {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 300;
+    text-transform: uppercase;
+    opacity: 1;
+    animation: fade-in-text 0.01s linear 1.5s forwards;
+}
+
+@keyframes swipe-in-text {
+    0% {
+        width: 0%;
+        right: 100%;
+        left: 0%;
+    }
+    50% {
+        left: 0%;
+        width: 100%;
+        right: 0%;
+    }
+    100% {
+        width: 0%;
+        left: 100%;
+    }
+}
+
+@keyframes fade-in-text {
+    form {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 .cusbannartext {
     padding: 80px;
@@ -10,11 +61,19 @@
     filter: brightness(70%)
 }
 
-.responsive {
-    margin: 20px 80px;
-    padding: 20px;
+.banner-bg {
+    margin-top: -10px;
     width: 100%;
-    height: 100vh;
+    height: 105vh;
+    background: url(../../Assets/asian-farmer-transplant-rice-seedlings-rice-field-farmer-planting-rice-rainy-season.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .bh {
@@ -25,59 +84,6 @@
 .bp {
     color: white;
 }
-
-
-/* 
-@media only screen and (max-width: 600px) {
-    .custom-h1 {
-        font-size: 30px;
-    }
-    .responsive {
-        margin: 10px 20px;
-        padding: 20px;
-    }
-    .glassEffect {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .custom-h1 {
-        font-size: 30px;
-    }
-    .responsive {
-        margin: 10px 20px;
-        padding: 20px;
-    }
-    .glassEffect {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 912px) {
-    .custom-h1 {
-        font-size: 40px;
-    }
-    .responsive {
-        margin: 5px 15px;
-        padding: 20px;
-    }
-    .glassEffect {
-        display: block;
-    }
-}
-
-@media only screen and (max-width: 390px) {
-    .custom-h1 {
-        font-size: 30px;
-    }
-    .responsive {
-        padding: 20px;
-    }
-    .glassEffect {
-        display: none;
-    }
-} */
 
 @media (min-width: 400px) {
     .custom-h1 {
