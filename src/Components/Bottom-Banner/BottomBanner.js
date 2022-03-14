@@ -3,7 +3,7 @@ import React from 'react';
 import { Carousel, Container } from 'react-bootstrap';
 import pattern from '../../Assets/resourse/grey_pattern.webp'
 import pic from '../../Assets/c1.jpg'
-import pic2 from '../../Assets/c3.jpg'
+import pic2 from '../../Assets/c3 (2).jpg'
 import pic3 from '../../Assets/c4.jpg'
 
 import { BsCheckLg } from "react-icons/bs";

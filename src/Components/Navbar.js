@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo1 from '../Assets/logo icon.png'
+// import logo2 from '../Assets/Asset 13.png'
 
 import { navItems } from "./NavItems";
 import Dropdown from "./Dropdown";
@@ -46,13 +47,18 @@ window.addEventListener('scroll',changeColor)
     <>
       <nav className={color ? 'navbar navbar-bg' : 'navbar'}>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu} >
+
+     
           
-          <div className={logo ? 'color1': 'color2'}>
+           <div className={logo ? 'color1': 'color2'}>
           
            <div className='textarealogo'>
            <img src= {logo1 } alt="" srcset="" /> <span className='lt1' > Agroverse</span> <span className='lt2'><br /> Limited</span>
           </div>
-          </div>
+          </div> 
+
+          
+          
 
          
 

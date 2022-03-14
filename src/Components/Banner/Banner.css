@@ -65,9 +65,9 @@
     margin-top: -10px;
     width: 100%;
     height: 105vh;
-    background: url(../../Assets/asian-farmer-transplant-rice-seedlings-rice-field-farmer-planting-rice-rainy-season.jpg);
+    background: url(../../Assets/Farmer_of_Bangladesh.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: fit;
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
