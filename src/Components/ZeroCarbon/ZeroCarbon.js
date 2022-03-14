@@ -1,18 +1,33 @@
+import { Grid } from '@mui/material';
 import React from 'react';
-import CustomHeading from '../styles/Heading.style';
+import carbon from '../../Assets/resourse/eco-services-center-img.png'
+
 import './ZeroCarbon.css'
 
 const ZeroCarbon = () => {
     return (
         <div>
             
-
+            
 <div class="parallax">
-    
-<h1 className='Carbonh1'>Our climate target</h1>
+<h1 className='Carbonh1'>OUR CLIMATE TARGET</h1>
 
-<p className='Carbonp'>Shell's target is to become a net-zero emissions energy business by 2050, in step with society's progress in achieving the goal of the UN Paris Agreement on climate change.</p>
-    
+<Grid container spacing={0}>
+  <Grid className='Carbonp1' item xs={4}>
+  <h5>We target is to become a net-zero emissions energy business by 2050, in step with society's progress in achieving the goal of the UN Paris Agreement on climate change.</h5>
+  </Grid>
+  <Grid className='carbonpic' item xs={4}>
+    <img src={carbon} alt="" />
+  </Grid>
+  <Grid className='Carbonp2' item xs={4}>
+  <h5>We target is to become a net-zero emissions energy business by 2050, in step with society's progress in achieving the goal of the UN Paris Agreement on climate change.</h5>
+  </Grid>
+  
+</Grid>
+
+
+
+
 </div>
 
 

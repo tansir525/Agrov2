@@ -1,4 +1,6 @@
+
 import styled from "styled-components";
+
 
 
 
@@ -11,6 +13,7 @@ font-size: 30px;
 text-align: center;
 margin: 10px;
 padding: 10px;
+font-family: 'Poppins', sans-serif;
  
  
 

@@ -1,11 +1,11 @@
 import { Grid } from '@mui/material';
 import React from 'react';
 import { Carousel, Container } from 'react-bootstrap';
-
+import pattern from '../../Assets/resourse/grey_pattern.webp'
 import pic from '../../Assets/c1.jpg'
 import pic2 from '../../Assets/c3.jpg'
 import pic3 from '../../Assets/c4.jpg'
-import CustomButton from '../styles/Button.style';
+
 import { BsCheckLg } from "react-icons/bs";
 
 import './BottomBanner.css'
@@ -17,7 +17,8 @@ const BottomBanner = () => {
         <div  className='custombottombannerbackground'>
 
         <Container>
-
+            
+        <img className='bdpattern' src={pattern} alt="" srcset="" />
             <div className='cusbottom'>
                 <CustomHeading>OUR VALUES</CustomHeading>
                 
@@ -26,7 +27,7 @@ const BottomBanner = () => {
             <Grid container spacing={2}>
             <Grid className='text-center d-flex justify-content-end align-items-center text-justify ' item lg={6}  md={6} sm={12} xs={12}>
                 <div>
-                <h3 style={{fontWeight:'bold', color: '#008000'}} className='pb-3'></h3>
+                
                 {/* <h5 style={{fontWeight:'bold'}} >Farming is a science.</h5> */}
                 <p></p>
                 <h5>
@@ -90,9 +91,9 @@ const BottomBanner = () => {
           
             </Grid>
 
-           <div className=' d-flex justify-content-center  p-5'>
+           {/* <div className=' d-flex justify-content-center  p-5'>
            <CustomButton> View More</CustomButton>
-           </div>
+           </div> */}
 
 
          

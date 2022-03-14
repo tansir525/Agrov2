@@ -9,6 +9,7 @@ import lightning from '../../Assets/subbanner/Agri-Export.jpg'
 import tractor from '../../Assets/subbanner/wheat-holiday.png'
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
+import CustomHeading from '../styles/Heading.style';
 
 
 
@@ -24,8 +25,9 @@ const SubBanner = () => {
     return (
         <div className='bg'>
         <Container>
-        <div className='subbanner text-left mb-5 mt-5'>
-            <h1>  OUR INDUSTRIES</h1>
+        <div className=' text-left mb-5 mt-5'>
+          <CustomHeading> OUR INDUSTRIES</CustomHeading>
+            
           
         </div>
         <div className='mb-5'>

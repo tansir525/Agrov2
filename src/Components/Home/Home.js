@@ -2,7 +2,7 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import BannerDevider from '../BannerDevider/BannerDevider';
 import BottomBanner from '../Bottom-Banner/BottomBanner';
-import CarousalBanner from '../CarousalBanner/CarousalBanner';
+
 import Environment from '../Environment/Environment';
 
 

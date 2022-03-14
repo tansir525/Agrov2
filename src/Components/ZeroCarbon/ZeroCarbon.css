@@ -1,11 +1,42 @@
 .parallax {
     /* The image used */
-    background-image: url(../../Assets/climate-target-PP-nze-hero-tablet-2a.jpg);
+    background-image: url(../../Assets/resourse/eco-services-bg-img.jpg);
     /* Set a specific height */
     min-height: 500px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 75px;
+}
+
+.carbonpic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Carbonh1 {
+    color: #008000;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: -45px;
+}
+
+.Carbonp1 {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: right;
+}
+
+.Carbonp2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: left;
+    padding-bottom: 35px;
 }
