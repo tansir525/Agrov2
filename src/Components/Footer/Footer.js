@@ -27,16 +27,17 @@ const Footer = () => {
     
   </Grid>
   <Grid item xs={6} md={4}>
-  <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, dolore.</p>
+  <p className='text-white parafooter'>We always strives to contribute to achieving the Sustainable Development Goals through its business model.</p>
   </Grid>
   <Grid item xs={6} md={4}>
-  <p className='text-white'> <li>
-      lorem ipsum</li>
-      <li>
-          lorem ipsum</li>
-          <li>
-              lorem ipsum</li>
-              </p>
+  <p className='cusfooter '>
+  
+
+            <ul> <a href="/home">INDUSTRIES</a> </ul>
+            <ul> <a href="/values">VALUES</a> </ul>
+            <ul> <a href="/environment">ENVIRONMENT</a></ul>
+            <ul> <a href="/career">CAREER</a> </ul>
+    </p>
   </Grid>
  
 </Grid>
@@ -53,8 +54,8 @@ const Footer = () => {
  value={{ color: 'white', size: '30px' }}
       
     >
-        <div className='d-flex justify-content-around mx-3'>
-        <span><BsFacebook/> </span> <span><BsInstagram/></span><span><BsYoutube/></span>
+        <div className='d-flex justify-content-center'>
+        <span className='me-3'><BsFacebook/> </span> <span className='me-3'><BsInstagram/></span><span className='me-3'><BsYoutube/></span>
         </div>
    
 
@@ -65,6 +66,9 @@ const Footer = () => {
  
 </Grid>
 
+<div>
+<p class="text-muted text-center mb-0">©2022. Developed by Agroverse Limited.</p>
+</div>
        
         </div>
     );

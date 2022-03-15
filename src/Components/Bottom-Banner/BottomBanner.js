@@ -20,7 +20,7 @@ const BottomBanner = () => {
             
         <img className='bdpattern' src={pattern} alt="" srcset="" />
             <div className='cusbottom'>
-                <CustomHeading>OUR VALUES</CustomHeading>
+                <CustomHeading >OUR VALUES</CustomHeading>
                 
                 <p style={{color: '#0A3340'}} className='text-center'>AGROVERSE is committed to producing healthy, nutritious offerings that are not only enticing, accessible, exciting, and unique, but also sustainable and dedicated its energy to help to achieve potential.</p>
             </div>

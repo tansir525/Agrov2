@@ -7,6 +7,10 @@
     background-size: cover;
 }
 
+.cusbottom {
+    margin-top: -60px;
+}
+
 .typoicon {
     font-weight: bolder;
     color: #008000;

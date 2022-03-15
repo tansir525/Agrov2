@@ -4,9 +4,9 @@ import { Container} from 'react-bootstrap';
 import './SubBanner.css'
 import Dairy from '../../Assets/subbanner/heads-black-white-holstein-cows-feeding-grass-stable-holland.jpg'
 import manufacture from '../../Assets/subbanner/food.png'
-import logomini from '../../Assets/logo icon.png'
-import lightning from '../../Assets/subbanner/Agri-Export.jpg'
-import tractor from '../../Assets/subbanner/wheat-holiday.png'
+
+import lightning from '../../Assets/subbanner/m.jpg'
+import tractor from '../../Assets/subbanner/Agri-Export.jpg'
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import CustomHeading from '../styles/Heading.style';
@@ -25,7 +25,7 @@ const SubBanner = () => {
     return (
         <div className='bg'>
         <Container>
-        <div className=' text-left mb-5 mt-5'>
+        <div className=' text-left mb-5 mt-0'>
           <CustomHeading> OUR INDUSTRIES</CustomHeading>
             
           

@@ -2,3 +2,21 @@
     background-color: #063340;
     margin-top: 200px;
 }
+
+.cusfooter a {
+    text-decoration: none;
+    color: #008000;
+    font-weight: bold;
+}
+
+.cusfooter ul {
+    margin-bottom: 0px;
+}
+
+.cusfooter {
+    text-align: left;
+}
+
+.parafooter {
+    font-weight: 200;
+}
