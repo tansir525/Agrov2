@@ -31,7 +31,7 @@ const Home = () => {
            <ZeroCarbon/>
            <Sdgbottom/>
            <Environment/>
-           <FormPage/>
+           {/* <FormPage/> */}
            
 
         

@@ -1,5 +1,5 @@
 .customabout {
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 80px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .aboutbanner {
-    margin-top: 80px;
+    margin-top: 0px;
     background-image: url(../../Assets/image.jpg);
     width: 100%;
     background-position: center;
