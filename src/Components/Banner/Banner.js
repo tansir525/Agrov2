@@ -14,7 +14,7 @@ const Banner = () => {
        
         <div className='page-wrapper'>
             <div className='swipe-in-text'>
-                <h1 className='text'>LET IT GROW.</h1>
+                <h1 className='text'>LET IT GROW..</h1>
 
             </div>
            
