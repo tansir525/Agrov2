@@ -1,50 +1,121 @@
-.customabout {
-    margin-top: 0px;
-    margin-bottom: 80px;
-}
-
-.abouttitle {
-    text-align: center;
-    color: #008000;
-}
-
-.abouttitle h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
-}
-
-.customAbout {
-    margin-top: 90px;
-}
-
-.motherbannerabout {
-    background-color: black;
-}
-
-.aboutbanner {
-    margin-top: 0px;
-    background-image: url(../../Assets/image.jpg);
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    min-height: 70vh;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.centeredabout {
-    position: absolute;
-    top: 40%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-weight: bolder;
-    font-size: 40PX;
-    background-color: rgba(0, 0, 0, 0.808);
-    padding: 8px 30PX;
-    border-radius: 10PX;
-    overflow: hidden;
-}
+    .rootabout {
+        background: url(../../Assets/bg_noise.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 150px;
+        margin-bottom: -198px;
+    }
+    
+    .customabout {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .abouttitle h1 {
+        text-align: center;
+        color: #008000;
+    }
+    
+    .abouttitle h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }
+    
+    .customAbout {
+        margin-top: 90px;
+    }
+    
+    .motherbannerabout {
+        background-color: black;
+    }
+    
+    .aboutbanner {
+        margin-top: 0px;
+        background-image: url(../../Assets/image.jpg);
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        min-height: 70vh;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .centeredabout {
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-weight: bolder;
+        font-size: 40PX;
+        background-color: rgba(0, 0, 0, 0.808);
+        padding: 8px 30PX;
+        border-radius: 10PX;
+        overflow: hidden;
+    }
+    
+    .try {
+        background-image: url(../../Assets/wave.svg);
+        background-position: center;
+        background-size: cover;
+        margin-top: -40px;
+    }
+    
+    .deviderContent {
+        padding-top: 200px;
+        padding-bottom: 80px;
+        color: #05C411;
+    }
+    
+    .missionvision {
+        background: url(../../Assets/bg_noise.jpg);
+        margin: 50px;
+        padding: 50px;
+        padding-top: 80px;
+    }
+    
+    .patternabout {
+        position: absolute;
+        height: 50px;
+        margin-top: -58.1px;
+    }
+    
+    .missionvisioncontent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .missionvisioncontent h4 {
+        text-align: left;
+        color: #008000;
+        margin-bottom: 10px;
+    }
+    
+    .missionvisioncontent p {
+        text-align: left;
+    }
+    /* bord of member part */
+    
+    .bom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .bom img {
+        width: 70%;
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    
+    .bom h4 {
+        color: #008000;
+        text-transform: uppercase;
+    }
