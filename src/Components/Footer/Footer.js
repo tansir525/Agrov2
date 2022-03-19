@@ -27,7 +27,7 @@ const Footer = () => {
     
   </Grid>
   <Grid item xs={6} md={4}>
-  <p className='text-white parafooter'>We always strives to contribute to achieving the Sustainable Development Goals through its business model.</p>
+  <p className='text-white parafooter'>We always strives to contribute to achieving the Sustainable Development Goals through our business model.</p>
   </Grid>
   <Grid item xs={6} md={4}>
   <p className='cusfooter '>

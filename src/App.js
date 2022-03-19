@@ -10,6 +10,7 @@ import Navbar from './Components/Navbar';
 import About from './Pages/About/About';
 import Export from './Pages/Export/Export';
 import Manufacturing from './Pages/Manufacturing/Manufacturing';
+import Marketing from './Pages/Marketing/Marketing';
 // import Career from './Components/Career/Career';
 
 
@@ -24,6 +25,8 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/export" element={<Export/>} />
         <Route path="/manufacturing" element={<Manufacturing/>} />
+        <Route path="/marketing" element={<Marketing/>} />
+
         <Route path="/contact" element={<FormPage />} />
     </Routes>
     <Footer/>

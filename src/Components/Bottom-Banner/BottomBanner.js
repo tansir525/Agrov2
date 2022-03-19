@@ -18,7 +18,7 @@ const BottomBanner = () => {
 
         <Container>
             
-        <img className='bdpattern' src={pattern} alt="" srcset="" />
+        <img className='bdpattern img-fluid' src={pattern} alt="" srcset="" />
             <div className='cusbottom'>
                 <CustomHeading >OUR VALUES</CustomHeading>
                 

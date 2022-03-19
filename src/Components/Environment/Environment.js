@@ -32,7 +32,7 @@ const Environment = () => {
   <div class="flip-card-inner">
     <div class="flip-card-front">
         <img className='flipimg img-fluid' src={flip1} alt="" />
-        <h5 className='f1'>No Proverty</h5>
+        <h5 className='f1'>No Poverty</h5>
   
     </div>
     <div class="flip-card-back colo1">
@@ -64,7 +64,7 @@ const Environment = () => {
   <div class="flip-card-inner">
     <div class="flip-card-front">
         <img className='flipimg img-fluid' src={flip3} alt="" />
-        <h5 className='f3'>Good Helth & Well-being</h5>
+        <h5 className='f3'>Good Health & Well-being</h5>
     </div>
     <div class="flip-card-back colo3">
       
@@ -79,7 +79,7 @@ const Environment = () => {
   <div class="flip-card-inner">
     <div class="flip-card-front">
         <img className='flipimg img-fluid' src={flip4} alt="" />
-        <h5 className='f4'>Decent Work & Economic groth</h5>
+        <h5 className='f4'>Decent Work & Economic growth</h5>
     </div>
     <div class="flip-card-back colo4">
      

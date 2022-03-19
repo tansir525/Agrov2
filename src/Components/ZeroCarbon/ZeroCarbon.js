@@ -20,7 +20,7 @@ const ZeroCarbon = () => {
     <img src={carbon} alt="" />
   </Grid>
   <Grid className='Carbonp2' item xs={4}>
-  <h5 className=' text-start'>We target is to become a net-zero emissions energy business by 2050, in step with society's progress in achieving the goal of the UN Paris Agreement on climate change.</h5>
+  <h5 className=' text-start'>Our target is to become a net-zero emissions energy business by 2050, in step with society's progress in achieving the goal of the UN Paris Agreement on climate change.</h5>
   </Grid>
   
 </Grid>
