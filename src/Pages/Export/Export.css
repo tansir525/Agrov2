@@ -30,16 +30,25 @@
 }
 
 .exportpolicy {
-    margin-top: 150px;
-    background: rgba(144, 238, 144, 0.13);
+    margin-top: -50px;
+    background: url(../../Assets//bg_noise.jpg);
     min-height: 500px;
 }
 
-.custom-export {
+
+/* .custom-export {
     margin-left: 80px;
-}
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+} */
 
 .export-imgcaro img {
-    width: 100%;
-    height: 400px;
+    width: 500px;
+    height: 500px;
 }
+
+
+/* .imgcaro {
+    width: 400px;
+    height: 400px;
+} */

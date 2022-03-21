@@ -28,7 +28,6 @@ function App() {
         <Route path="/manufacturing" element={<Manufacturing/>} />
         <Route path="/marketing" element={<Marketing/>} />
         <Route path="/sdg" element={<SdgEnv/>}/>
-
         <Route path="/contact" element={<FormPage />} />
     </Routes>
     <Footer/>
