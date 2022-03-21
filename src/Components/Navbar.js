@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import logo1 from '../Assets/logo icon.png'
+// import logo1 from '../Assets/logo icon.png'
 // import logo2 from '../Assets/Asset 13.png'
+import svglogo from "../Assets/Agroverse Logo (1).svg";
 
 import { navItems } from "./NavItems";
 import Dropdown from "./Dropdown";
@@ -28,16 +29,16 @@ window.addEventListener('scroll',changeColor)
   const closeMobileMenu = () => setClick(false);
 
 
-  const [logo, setLogo] = useState(false)
-  const changeLogo = ()=>{
-    if(window.scrollY >=90 ){
-      setLogo(true)
+  // const [logo, setLogo] = useState(false)
+  // const changeLogo = ()=>{
+  //   if(window.scrollY >=90 ){
+  //     setLogo(true)
 
-    }else{
-      setLogo(false)
-    }
-  }
-  window.addEventListener('scroll',changeLogo)
+  //   }else{
+  //     setLogo(false)
+  //   }
+  // }
+  // window.addEventListener('scroll',changeLogo)
 
 
 
@@ -45,67 +46,60 @@ window.addEventListener('scroll',changeColor)
 
   return (
     <>
-      <nav className={color ? 'navbar navbar-bg' : 'navbar'}>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu} >
-
-     
-          
-           <div className={logo ? 'color1': 'color2'}>
-          
-           <div className='textarealogo'>
-           <img src= {logo1 } alt="" srcset="" /> <span className='lt1' > Agroverse</span> <span className='lt2'><br /> Limited</span>
+      {/* <nav className={color ? "navbar navbar-bg" : "navbar"}>
+        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <div className={logo ? "color1" : "color2"}>
+            <div className="textarealogo">
+              <img src={logo1} alt="" srcset="" />{" "}
+              <span className="lt1"> Agroverse</span>{" "}
+              <span className="lt2">
+                <br /> Limited
+              </span>
+            </div>
           </div>
-          </div> 
-
-          
-          
-
-         
-
+        </Link> */}
+      <nav className={color ? "navbar navbar-bg" : "navbar"}>
+        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <img src={svglogo} alt="" srcset="" />
         </Link>
-        <div className='menu-icon' onClick={handleClick}>
-          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+
+        <div className="menu-icon" onClick={handleClick}>
+          <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
-        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <ul className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu} >
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <ul className="nav-item">
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
               HOME
             </Link>
           </ul>
-          
-          <ul className='nav-item'>
-            <Link
-              to='/about'
-              className='nav-links'
-              onClick={closeMobileMenu}
-              
-            >
-             ABOUT
+
+          <ul className="nav-item">
+            <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+              ABOUT
             </Link>
           </ul>
 
-
           <ul className="drop">
-          {navItems.map((item) => {
-            if (item.title === "SERVICES") {
-              return (
-                <ul
-                  key={item.id}
-                  className=''
-                  onMouseEnter={() => setDropdown(true)}
-                  onMouseLeave={() => setDropdown(false)}
-                >
-                  <Link className='nav-links' to={item.path}>{item.title}</Link>
-                  {dropdown && <Dropdown />}
-                </ul>
-              );
-            }
-           
-          })}
-        </ul>
+            {navItems.map((item) => {
+              if (item.title === "SERVICES") {
+                return (
+                  <ul
+                    key={item.id}
+                    className=""
+                    onMouseEnter={() => setDropdown(true)}
+                    onMouseLeave={() => setDropdown(false)}
+                  >
+                    <Link className="nav-links" to={item.path}>
+                      {item.title}
+                    </Link>
+                    {dropdown && <Dropdown />}
+                  </ul>
+                );
+              }
+            })}
+          </ul>
 
-
-{/* 
+          {/* 
           <ul className='nav-item'>
             <Link
               to='/Export'
@@ -136,13 +130,8 @@ window.addEventListener('scroll',changeColor)
 
            */}
 
-
-          <ul className='nav-item'>
-            <Link
-              to='/contact'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
+          <ul className="nav-item">
+            <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
               CONTACT US
             </Link>
           </ul>
@@ -156,7 +145,6 @@ window.addEventListener('scroll',changeColor)
             </Link>
           </ul> */}
         </ul>
-       
       </nav>
     </>
   );

@@ -12,16 +12,15 @@
 
 .contactbanner {
     margin-top: 0px;
-    background-image: url(../../Assets/image.jpg);
+    background-image: url(../../Assets/customer-support-hotline-people-connect-phone-application-contact-us-man-cellphone.jpg);
     width: 100%;
-    background-position: center;
+    background-position: top;
     background-size: cover;
-    min-height: 70vh;
+    min-height: 50vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .centercontact {

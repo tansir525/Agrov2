@@ -2,16 +2,17 @@
 
 .exportbanner {
     margin-top: 0px;
-    background-image: url(../../Assets/image.jpg);
+    background-image: url(../../Assets/ex3.jpg);
     width: 100%;
     background-position: center;
     background-size: cover;
-    min-height: 70vh;
+    min-height: 50vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0px 40px 45px #00800013;
 }
 
 .centerexport {
@@ -22,8 +23,23 @@
     color: white;
     font-weight: bolder;
     font-size: 35PX;
-    background-color: rgba(0, 0, 0, 0.808);
+    background-color: #008000;
     padding: 8px 30PX;
     border-radius: 10PX;
     overflow: hidden;
+}
+
+.exportpolicy {
+    margin-top: 150px;
+    background: rgba(144, 238, 144, 0.13);
+    min-height: 500px;
+}
+
+.custom-export {
+    margin-left: 80px;
+}
+
+.export-imgcaro img {
+    width: 100%;
+    height: 400px;
 }

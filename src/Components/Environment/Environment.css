@@ -145,3 +145,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55px;
+}

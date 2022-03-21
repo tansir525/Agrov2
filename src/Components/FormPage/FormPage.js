@@ -10,10 +10,7 @@ const FormPage = () => {
       <div>
         <div>
           <div className="contactbanner">
-            <h1 className="centercontact">
-              “A good farmer is nothing <br /> more nor less than a handy <br />{" "}
-              man with a sense of humus.”
-            </h1>
+            
           </div>
         </div>
         <div className="paperbg">

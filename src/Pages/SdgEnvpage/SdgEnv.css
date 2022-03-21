@@ -1,0 +1,97 @@
+.sdgenvbanner {
+    margin-top: 0px;
+    background-image: url(../../Assets//Environment/en.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    min-height: 105vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.centersdgenv {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bolder;
+    font-size: 35PX;
+    background-color: #008000b6;
+    padding: 18px 40PX;
+    border-radius: 10PX;
+    overflow: hidden;
+}
+
+.sdgenv-bg {
+    background: url(../../Assets/bg_noise.jpg);
+    padding: 20px;
+}
+
+.sdgenv1 img {
+    height: 400px;
+    width: 400px;
+}
+
+.sdgenv1 {
+    padding: 10px;
+    margin: 10px;
+}
+
+.sdgenv1 h4 {
+    margin-top: 80px;
+    text-align: center;
+    color: #008000;
+    margin-bottom: 19px;
+}
+
+.dev img {
+    color: green;
+    width: 100%;
+    background-color: white;
+}
+
+.sdgenvtext h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #008000;
+    font-weight: bold;
+}
+
+.sd-h2 h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #008000;
+}
+
+.sdgenvtextt p {
+    text-align: center;
+}
+
+.in1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 0, 0, 0.603);
+    width: 100%;
+    padding: 8px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.insidesdg {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.sdgimg {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+}
