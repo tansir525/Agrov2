@@ -4,7 +4,13 @@ import './SdgEnv.css'
 import earth from "../../Assets/Environment/iStock-459402045-Converted-removebg-preview.png";
 import devid from '../../Assets/resourse/grey_pattern.webp'
 import { Container } from 'react-bootstrap';
-import poverty from "../../Assets/Environment/begging-bridge-with-person-who-handed-bread.jpg";
+import poverty from "../../Assets/Agro Illustrations/No proverty.png";
+import zerohungar from "../../Assets/Agro Illustrations/Zero Hunger.png";
+import goodhealth from "../../Assets/Agro Illustrations/Goof health and well being.png";
+import decentwork from "../../Assets/Agro Illustrations/Decent work and economic growth.png";
+import responsibleconsumption from "../../Assets/Agro Illustrations/Responsible consumption and production.png";
+import climate from "../../Assets/Agro Illustrations/Climate Action.png";
+
 
 const SdgEnv = () => {
     return (
@@ -49,22 +55,18 @@ const SdgEnv = () => {
           </div>
           <div className="sdgenv-bg">
             <Container>
-              <div className="sd-h2">
+              <div className="sd-h2 mt-5">
                 {/* <h2>Our Approach To Sustainability</h2> */}
                 <Grid className="mb-5" container spacing={5}>
                   <Grid item xs={6}>
-                    <div className="sdgenvtext">
-                      <div class="insidesdg">
-                        <img
-                          className="sdgimg img-fluid"
-                          src={poverty}
-                          alt=""
-                        />
-                        <h5 className="in1">No Poverty</h5>
-                      </div>
+                    <div class="insidesdg">
+                      <img className="sdgimg img-fluid" src={poverty} alt="" />
                     </div>
                   </Grid>
                   <Grid item xs={6}>
+                    <div className="sdgenvtext">
+                      <h3>No Poverty</h3>
+                    </div>
                     <p className="mt-3">
                       One of the toughest and greatest challenges humanity is
                       facing nowadays is eradicating poverty in all its forms.
@@ -85,18 +87,17 @@ const SdgEnv = () => {
                       the fact, a vast population in the developing countries
                       are living under the poverty line due to a lack of access
                       to modern technology, information, production factors, and
-                      so on. As the agricultural sector is the backbone of the
-                      developing nations in terms of economic activity,
-                      employment, and livelihoods; strengthening the sector and
-                      adding value to agricultural commodities are instrumental
-                      in stimulating economic growth, and reducing poverty in a
-                      sustainable manner.
+                      so on.
                     </p>
                   </Grid>
                 </Grid>
-                <Grid className="mb-5" container spacing={5}>
+                <Grid className="mb-5 mt-5" container spacing={5}>
                   <Grid item xs={6}>
-                    <p className="mt-5">
+                    <div className="sdgenvtext">
+                      <h3>Zero Hunger</h3>
+                    </div>
+
+                    <p className="mt-3">
                       For decades, Malnutrition and Undernourishment caused by
                       hunger have remained a plaguing issue all over the globe.
                       A study conducted by the United Nations (2015) shows that
@@ -122,25 +123,29 @@ const SdgEnv = () => {
                   </Grid>
                   <Grid item xs={6}>
                     <div className="sdgenvtext">
-                      <h1>
-                        {" "}
-                        <br /> <br /> <br /> <br />
-                        Zero Hunger
-                      </h1>
+                      <img
+                        className="sdgimg img-fluid"
+                        src={zerohungar}
+                        alt=""
+                      />
                     </div>
                   </Grid>
                 </Grid>
-                <Grid className="mb-5" container spacing={5}>
+                <Grid className="mb-5 mt-5" container spacing={5}>
                   <Grid item xs={6}>
                     <div className="sdgenvtext">
-                      <h1>
-                        {" "}
-                        <br /> <br /> <br /> <br />
-                        Good Health and Well Being
-                      </h1>
+                      <img
+                        className="sdgimg img-fluid"
+                        src={goodhealth}
+                        alt=""
+                      />
                     </div>
                   </Grid>
                   <Grid item xs={6}>
+                    <div className="sdgenvtext">
+                      <h3>Good Health and Well Being</h3>
+                    </div>
+
                     <p className="mt-3">
                       Ensuring healthy life and promoting well-being is
                       important to building prosperous societies. Though
@@ -164,9 +169,13 @@ const SdgEnv = () => {
                     </p>
                   </Grid>
                 </Grid>
-                <Grid className="mb-5" container spacing={5}>
+                <Grid className="mb-5 mt-5" container spacing={5}>
                   <Grid item xs={6}>
-                    <p className="mt-5">
+                    <div className="sdgenvtext">
+                      <h3>Decent Work and Economic Growth</h3>
+                    </div>
+
+                    <p className="mt-3">
                       Sustained and inclusive economic growth is a prerequisite
                       and crucial factor for sustainable development that can
                       lead to new and better employment opportunities, provide
@@ -188,25 +197,29 @@ const SdgEnv = () => {
                   </Grid>
                   <Grid item xs={6}>
                     <div className="sdgenvtext">
-                      <h1>
-                        {" "}
-                        <br /> <br /> <br /> <br />
-                        Decent Work and Economic Growth
-                      </h1>
+                      <img
+                        className="sdgimg img-fluid"
+                        src={decentwork}
+                        alt=""
+                      />
                     </div>
                   </Grid>
                 </Grid>
-                <Grid className="mb-5" container spacing={5}>
+                <Grid className="mb-5 mt-5" container spacing={5}>
                   <Grid item xs={6}>
                     <div className="sdgenvtext">
-                      <h1>
-                        {" "}
-                        <br /> <br /> <br /> <br />
-                        Responsible Consumption and Production
-                      </h1>
+                      <img
+                        className="sdgimg img-fluid"
+                        src={responsibleconsumption}
+                        alt=""
+                      />
                     </div>
                   </Grid>
                   <Grid item xs={6}>
+                    <div className="sdgenvtext">
+                      <h3>Responsible Consumption and Production</h3>
+                    </div>
+
                     <p className="mt-3">
                       The dramatic expansion of worldwide material consumption
                       and availability of everyday items have jeopardized our
@@ -235,9 +248,13 @@ const SdgEnv = () => {
                     </p>
                   </Grid>
                 </Grid>
-                <Grid className="mb-5" container spacing={5}>
+                <Grid className="mb-5 mt-5" container spacing={5}>
                   <Grid item xs={6}>
-                    <p className="mt-5">
+                    <div className="sdgenvtext">
+                      <h3>Climate Action</h3>
+                    </div>
+
+                    <p className="mt-3">
                       Climate change is an undeniable threat to our entire
                       civilization, the basis of serious consequences for our
                       daily lives and the resilience of our planet. Carbon
@@ -261,11 +278,7 @@ const SdgEnv = () => {
                   </Grid>
                   <Grid item xs={6}>
                     <div className="sdgenvtext">
-                      <h1>
-                        {" "}
-                        <br /> <br /> <br /> <br />
-                        Climate Action
-                      </h1>
+                      <img className="sdgimg img-fluid" src={climate} alt="" />
                     </div>
                   </Grid>
                 </Grid>

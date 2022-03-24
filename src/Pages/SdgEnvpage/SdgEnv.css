@@ -27,6 +27,7 @@
 .sdgenv-bg {
     background: url(../../Assets/bg_noise.jpg);
     padding: 20px;
+    margin-bottom: -200px;
 }
 
 .sdgenv1 img {
@@ -61,6 +62,20 @@
     font-weight: bold;
 }
 
+.sdgenvtext h3 {
+    text-align: left;
+    color: #008000;
+    font-weight: bold;
+}
+
+.sdgenvtext img {
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .sd-h2 h2 {
     text-align: center;
     margin-bottom: 50px;
@@ -91,7 +106,7 @@
 }
 
 .sdgimg {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     border-radius: 5px;
 }
