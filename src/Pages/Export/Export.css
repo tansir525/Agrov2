@@ -2,17 +2,16 @@
 
 .exportbanner {
     margin-top: 0px;
-    background-image: url(../../Assets/ex3.jpg);
+    background: url(../../Assets/Export/37-1.jpg);
     width: 100%;
-    background-position: center;
-    background-size: cover;
-    min-height: 50vh;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
     background-position: bottom;
-    background-repeat: no-repeat;
     background-size: cover;
+    min-height: 60vh;
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
     box-shadow: 0px 40px 45px #00800013;
+    background-attachment: scroll;
 }
 
 .centerexport {
