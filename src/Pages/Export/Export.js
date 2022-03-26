@@ -19,22 +19,26 @@ const Export = () => {
           <Grid className="customabout" container spacing={0}>
             <Grid item xs={6}>
               <div className="abouttitle">
-                <h1>Exports</h1>
+                <h1>EXPORTS</h1>
               </div>
             </Grid>
             <Grid item xs={6}>
               <p>
-                Founded in 2021, AgroVerse is a universal agricultural food
-                products processing and manufacturing company located in
-                Bangladesh. <br /> <br />
-                AgroVerse is working closely with farmers; sourcing raw
-                materials directly from them and authentic suppliers; processing
-                and manufacturing agro-products maintaining high moral standards
+                AGROVERSE started its exports sector with the commitment to
+                deliver safe, healthy, nutritious, high quality, environmentally
+                friendly, and ethically produced agro-food products maintaining
+                the flexibility to adapt to the ever-changing needs of the
+                customers. <br /> <br /> Currently, AGROVERSE is manufacturing a
+                wide variety of agro-food products and exporting them to
+                different parts of the globe including the Middle East,
+                South-East Asia, North America, and Europe sustaining high moral
+                standards in its daily operations to provide high efficient and
+                quality services to the respected partners.
               </p>
             </Grid>
           </Grid>
         </Container>
-<img src={expotdev} alt="" srcset="" />
+        <img src={expotdev} alt="" srcset="" />
         <div className="exportpolicy">
           <Container>
             <Grid className="mt-5 pt-5 mb-1 pb-1" container spacing={2}>
@@ -45,22 +49,30 @@ const Export = () => {
                   </h3>
                   <p>
                     {" "}
-                    By working with farmers, we make sure farming is
-                    scientifically made more efficient. And then we bring those
-                    products to the market.{" "}
+                    AGROVERSE strictly follows International Standards on
+                    Quality Management System to ensure consistent quality of
+                    products and services to achieve customer satisfaction.
+                    AGROVERSE has a dedicated R&D team who always strives to
+                    improve the manufacturing process and all the offered range
+                    is gone through different parameters and checked by Quality
+                    Control Unit to ensure high-quality standards, fast
+                    delivery, and overall a great customer experience.
                   </p>
-                  <h5>
-                    We’re implementing data-driven farming and
-                    <br />
-                    procurement across some of the most needed
-                    <br />
-                    verticals –
-                  </h5>
 
                   <ul>
-                    <li>Dairy milk</li>
-                    <li>Fattening cattle</li>
-                    <li> Wheat</li>
+                    <li>
+                      AGROVERSE enforces strict Halal and European (EU)
+                      Standards in its operations{" "}
+                    </li>
+                    <li>
+                      Quality and Safety of the products meet required standards
+                      in order to be sold to European as well as international
+                      markets.{" "}
+                    </li>
+                    <li>
+                      AGROVERSE is proud to successfully and consistently meet
+                      the quality standards set for its products.
+                    </li>
                   </ul>
                 </div>
               </Grid>

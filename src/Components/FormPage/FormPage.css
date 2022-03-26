@@ -1,5 +1,5 @@
 .customContact {
-    margin-top: 80px;
+    margin-top: 0px;
     padding: 30px;
 }
 
@@ -12,13 +12,13 @@
 
 .contactbanner {
     margin-top: 0px;
-    background-image: url(../../Assets/customer-support-hotline-people-connect-phone-application-contact-us-man-cellphone.jpg);
+    background-color: #008000;
     width: 100%;
     background-position: top;
     background-size: cover;
-    min-height: 50vh;
+    min-height: 10vh;
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
 }

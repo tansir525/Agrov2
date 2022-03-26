@@ -1,10 +1,10 @@
-.exportbanner {
+.manufacturingbanner {
     margin-top: 0px;
-    background-image: url(../../Assets/image.jpg);
+    background-image: url(../../Assets/Environment/Header.webp);
     width: 100%;
     background-position: center;
     background-size: cover;
-    min-height: 70vh;
+    min-height: 80vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -12,16 +12,69 @@
     background-size: cover;
 }
 
-.centerexport {
+.centermanufacturing {
     position: absolute;
     top: 40%;
     left: 30%;
     transform: translate(-50%, -50%);
     color: white;
     font-weight: bolder;
-    font-size: 35PX;
+    font-size: 30PX;
     background-color: rgba(0, 0, 0, 0.808);
     padding: 8px 30PX;
     border-radius: 10PX;
     overflow: hidden;
+}
+
+.manubanner {
+    margin-top: 100px;
+}
+
+.manufacturingtext h2 {
+    color: #008000;
+    font-weight: bold;
+}
+
+.manudetails {
+    margin-top: 0px;
+    background: url(../../Assets//bg_noise.jpg);
+    min-height: 500px;
+    padding-bottom: 150px;
+    margin-bottom: -198px;
+}
+
+.manuicon {
+    height: 100px;
+    /* margin-top: 10px;
+    margin-bottom: 40px; */
+}
+
+.manuicon img {
+    /* height: 100px; */
+    /* margin-top: 10px; */
+    /* margin-bottom: 50px; */
+    height: 400px;
+    width: 400px;
+}
+
+.manuimg img {
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.manuitemdetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.manusubbanner {
+    margin: 15px;
+    margin-bottom: 80px;
+}
+
+.manucontent h3 {
+    color: #008000;
 }
