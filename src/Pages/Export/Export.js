@@ -7,6 +7,7 @@ import e1 from '../../Assets/Export/e1.jpg'
 import e2 from '../../Assets/Export/e2.jpg'
 import e3 from '../../Assets/Export/e3.jpg'
 import expotdev from '../../Assets/resourse/grey_pattern.webp'
+import bottompic from "../../Assets/eco_world crop.png";
 const Export = () => {
     return (
       <div>
@@ -19,7 +20,7 @@ const Export = () => {
           <Grid className="customabout" container spacing={0}>
             <Grid item xs={6}>
               <div className="abouttitle">
-                <h1>EXPORTS</h1>
+                <h3>EXPORTS</h3>
               </div>
             </Grid>
             <Grid item xs={6}>
@@ -100,6 +101,9 @@ const Export = () => {
               </Grid>
             </Grid>
           </Container>
+          <div className='bottompic'>
+            <img src={bottompic} alt="" srcset="" />
+          </div>
         </div>
       </div>
     );

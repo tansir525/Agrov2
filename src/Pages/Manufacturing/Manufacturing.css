@@ -1,15 +1,16 @@
 .manufacturingbanner {
     margin-top: 0px;
-    background-image: url(../../Assets/Environment/Header.webp);
+    background-image: url(../../Assets/Manufacturing/Manufacturing.png);
     width: 100%;
-    background-position: center;
+    background-position: inherit;
     background-size: cover;
-    min-height: 80vh;
+    min-height: 70vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: brightness(50%);
 }
 
 .centermanufacturing {

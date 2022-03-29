@@ -12,6 +12,7 @@ import Export from './Pages/Export/Export';
 import Manufacturing from './Pages/Manufacturing/Manufacturing';
 import Marketing from './Pages/Marketing/Marketing';
 import SdgEnv from './Pages/SdgEnvpage/SdgEnv';
+import Farming from './Pages/Farming/Farming';
 // import Career from './Components/Career/Career';
 
 
@@ -24,6 +25,7 @@ function App() {
     <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/about" element={<About/>} />
+        <Route path="/farming" element={<Farming/>} />
         <Route path="/export" element={<Export/>} />
         <Route path="/manufacturing" element={<Manufacturing/>} />
         <Route path="/marketing" element={<Marketing/>} />

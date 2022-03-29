@@ -1,0 +1,27 @@
+.farmingbanner {
+    margin-top: 0px;
+    background: url(../../Assets/Agrofarming/bann.jpg);
+    width: 100%;
+    background-position: inherit;
+    background-size: cover;
+    min-height: 70vh;
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    box-shadow: 0px 40px 45px #00800013;
+    background-attachment: fixed;
+    filter: brightness(50%);
+    /* padding-bottom: 150px;
+    margin-bottom: -198px; */
+}
+
+.farmingtitle h3 {
+    color: #008000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.customfarming {
+    margin-top: 90px;
+    margin-bottom: 30px;
+}

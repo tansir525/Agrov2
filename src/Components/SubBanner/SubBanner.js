@@ -32,7 +32,7 @@ const SubBanner = () => {
           <div className="mb-5">
             <Grid container spacing={3}>
               <Grid item lg={3} md={4} sm={12} xs={12}>
-                <Link to="/" style={{ textDecoration: "none" }}>
+                <Link to="/farming" style={{ textDecoration: "none" }}>
                   {" "}
                   <Item>
                     <CardActionArea>
