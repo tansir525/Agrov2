@@ -26,12 +26,12 @@ const SdgEnv = () => {
           <Container>
             <div className="container sdgenv1">
               <Grid container spacing={2}>
-                <Grid item lg={6} xs={6}>
+                <Grid item lg={6} md={6} sm={12} xs={12}>
                   <div className="sdgenv1">
                     <img src={earth} alt="" srcset="" />
                   </div>
                 </Grid>
-                <Grid item lg={6} xs={6}>
+                <Grid item lg={6} md={6} sm={12} xs={12}>
                   <h4>
                     Achieving the SDGs through Transformation, Innovation, and
                     Holistic Approach
@@ -58,12 +58,12 @@ const SdgEnv = () => {
               <div className="sd-h2 mt-5">
                 {/* <h2>Our Approach To Sustainability</h2> */}
                 <Grid className="mb-5" container spacing={5}>
-                  <Grid item xs={6}>
-                    <div class="insidesdg">
+                  <Grid item lg={6} md={6} sm={12} xs={12}>
+                    <div class="insidesdg sdgmonileimg">
                       <img className="sdgimg img-fluid" src={poverty} alt="" />
                     </div>
                   </Grid>
-                  <Grid item xs={6}>
+                  <Grid item lg={6} md={6} sm={12} xs={12}>
                     <div className="sdgenvtext">
                       <h3>No Poverty</h3>
                     </div>
@@ -92,7 +92,7 @@ const SdgEnv = () => {
                   </Grid>
                 </Grid>
                 <Grid className="mb-5 mt-5" container spacing={5}>
-                  <Grid item xs={6}>
+                  <Grid item lg={6} md={6} sm={12} xs={12}>
                     <div className="sdgenvtext">
                       <h3>Zero Hunger</h3>
                     </div>
@@ -121,7 +121,7 @@ const SdgEnv = () => {
                       to achieve SDG 02- Zero Hunger.
                     </p>
                   </Grid>
-                  <Grid item xs={6}>
+                  <Grid item lg={6} md={6} sm={12} xs={12}>
                     <div className="sdgenvtext">
                       <img
                         className="sdgimg img-fluid"
@@ -132,7 +132,7 @@ const SdgEnv = () => {
                   </Grid>
                 </Grid>
                 <Grid className="mb-5 mt-5" container spacing={5}>
-                  <Grid item xs={6}>
+                  <Grid item lg={6} md={6} sm={12} xs={12}>
                     <div className="sdgenvtext">
                       <img
                         className="sdgimg img-fluid"
@@ -141,7 +141,7 @@ const SdgEnv = () => {
                       />
                     </div>
                   </Grid>
-                  <Grid item xs={6}>
+                  <Grid item lg={6} md={6} sm={12} xs={12}>
                     <div className="sdgenvtext">
                       <h3>Good Health and Well Being</h3>
                     </div>
@@ -170,7 +170,7 @@ const SdgEnv = () => {
                   </Grid>
                 </Grid>
                 <Grid className="mb-5 mt-5" container spacing={5}>
-                  <Grid item xs={6}>
+                  <Grid item lg={6} md={6} sm={12} xs={12}>
                     <div className="sdgenvtext">
                       <h3>Decent Work and Economic Growth</h3>
                     </div>
@@ -195,7 +195,7 @@ const SdgEnv = () => {
                       adequate living wages, and training.
                     </p>
                   </Grid>
-                  <Grid item xs={6}>
+                  <Grid item lg={6} md={6} sm={12} xs={12}>
                     <div className="sdgenvtext">
                       <img
                         className="sdgimg img-fluid"
@@ -206,7 +206,7 @@ const SdgEnv = () => {
                   </Grid>
                 </Grid>
                 <Grid className="mb-5 mt-5" container spacing={5}>
-                  <Grid item xs={6}>
+                  <Grid item lg={6} md={6} sm={12} xs={12}>
                     <div className="sdgenvtext">
                       <img
                         className="sdgimg img-fluid"
@@ -215,7 +215,7 @@ const SdgEnv = () => {
                       />
                     </div>
                   </Grid>
-                  <Grid item xs={6}>
+                  <Grid item lg={6} md={6} sm={12} xs={12}>
                     <div className="sdgenvtext">
                       <h3>Responsible Consumption and Production</h3>
                     </div>
@@ -249,7 +249,7 @@ const SdgEnv = () => {
                   </Grid>
                 </Grid>
                 <Grid className="mb-5 mt-5" container spacing={5}>
-                  <Grid item xs={6}>
+                  <Grid item lg={6} md={6} sm={12} xs={12}>
                     <div className="sdgenvtext">
                       <h3>Climate Action</h3>
                     </div>
@@ -276,7 +276,7 @@ const SdgEnv = () => {
                       their access to food.
                     </p>
                   </Grid>
-                  <Grid item xs={6}>
+                  <Grid item lg={6} md={6} sm={12} xs={12}>
                     <div className="sdgenvtext">
                       <img className="sdgimg img-fluid" src={climate} alt="" />
                     </div>
