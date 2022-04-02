@@ -1,10 +1,10 @@
 import React from 'react';
 import './BannerDevider.css'
 
-import CustomButton from '../styles/Button.style';
-import { Grid } from '@mui/material';
+import { Button, Grid } from '@mui/material';
 
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const BannerDevider = () => {
     return (
@@ -25,7 +25,15 @@ const BannerDevider = () => {
                 ensure the utmost quality of the produce; and delivering the
                 products to customers to satisfy their needs.
               </p>
-              <CustomButton>Explore us</CustomButton>
+              {/* <CustomButton>Explore us</CustomButton> */}
+              <div className="text-left bannerdeviderbutton">
+                <Link to="/about" className="text-decoration-none text-left">
+                  {" "}
+                  <Button variant="contained" color="success">
+                    Discover More
+                  </Button>
+                </Link>
+              </div>
             </Grid>
           </Grid>
         </Container>

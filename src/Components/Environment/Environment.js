@@ -39,7 +39,7 @@ const Environment = () => {
             </div>
 
             <div className="grid-container">
-              <Grid className='envgrid' container spacing={3}>
+              <Grid className="envgrid" container spacing={3}>
                 <Grid item lg={4} md={4} sm={12} xs={12}>
                   <div class="flip-card">
                     <div class="flip-card-inner">
@@ -144,11 +144,17 @@ const Environment = () => {
               </Grid>
             </div>
           </div>
-          <div className="env-button p-5">
-            <Link to="/sdg">
+
+          <div className="env-button p-5 ">
+            <Link to="/sdg" className="text-decoration-none text-left">
               {" "}
-              
-              <SdgButton className="text-left">Discover More</SdgButton>
+              <Button
+                variant="contained"
+                color="success"
+                
+              >
+                Discover More
+              </Button>
             </Link>
           </div>
         </Container>

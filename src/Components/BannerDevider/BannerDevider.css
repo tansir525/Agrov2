@@ -25,3 +25,18 @@
     color: #fff;
     font-family: 'Poppins', sans-serif;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 570px) {
+    .bannerdeviderbutton {
+        display: none;
+    }
+    .devider-banner {
+        background-image: linear-gradient(to bottom, rgb(6, 51, 64), rgb(6, 51, 64));
+        width: 100%;
+        height: 400px;
+    }
+    .bdp {
+        text-align: center;
+        margin-top: 15px;
+    }
+}

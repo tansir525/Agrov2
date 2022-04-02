@@ -40,3 +40,20 @@
     text-align: left;
     padding-bottom: 35px;
 }
+
+.zerotext1 {
+    text-align: right;
+}
+
+.zerotext2 {
+    text-align: left;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 570px) {
+    .zerotext1 {
+        text-align: center;
+    }
+    .zerotext2 {
+        text-align: center;
+    }
+}
