@@ -18,12 +18,12 @@ const Marketing = () => {
         <Container>
           <div className="marketing2banner">
             <Grid container spacing={2}>
-              <Grid item xs={5}>
+              <Grid item lg={6} md={6} sm={12} xs={12}>
                 <div className="marketingtext text-center">
                   <h2>MARKETING</h2>
                 </div>
               </Grid>
-              <Grid item xs={7}>
+              <Grid item lg={6} md={6} sm={12} xs={12}>
                 <div className="marketingtext">
                   <p>
                     AGROVERSE set up its marketing sector with an aim to create
@@ -66,7 +66,7 @@ const Marketing = () => {
               </div>
               <div className="tittle">
                 <h4> We believe in Green Marketing</h4>
-                <p className='text-center'>
+                <p className="text-center">
                   Green marketing is the marketing of products that are presumed
                   to be environmentally safe. It incorporates a broad range of
                   activities, including product modification, changes to the
@@ -75,7 +75,7 @@ const Marketing = () => {
                 </p>
               </div>
               <Grid container spacing={0}>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={4} sm={12} xs={12}>
                   <div class="cards">
                     <div class="card">
                       {/* <h2 class="card-title">hgfd</h2> */}
@@ -92,7 +92,7 @@ const Marketing = () => {
                     </div>
                   </div>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={4} sm={12} xs={12}>
                   <div class="cards">
                     <div class="card">
                       {/* <h2 class="card-title">General trading</h2> */}
@@ -109,7 +109,7 @@ const Marketing = () => {
                     </div>
                   </div>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item lg={4} md={4} sm={12} xs={12}>
                   <div class="cards">
                     <div class="card">
                       {/* <h2 class="card-title">Advertising</h2> */}

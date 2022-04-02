@@ -18,12 +18,12 @@ const Export = () => {
         </div>
         <Container className="customAbout">
           <Grid className="customabout" container spacing={0}>
-            <Grid item xs={6}>
+            <Grid item lg={6} md={6} sm={12} xs={12}>
               <div className="abouttitle">
                 <h3>EXPORTS</h3>
               </div>
             </Grid>
-            <Grid item xs={6}>
+            <Grid item lg={6} md={6} sm={12} xs={12}>
               <p>
                 AGROVERSE started its exports sector with the commitment to
                 deliver safe, healthy, nutritious, high quality, environmentally
@@ -101,7 +101,7 @@ const Export = () => {
               </Grid>
             </Grid>
           </Container>
-          <div className='bottompic'>
+          <div className="bottompic">
             <img src={bottompic} alt="" srcset="" />
           </div>
         </div>

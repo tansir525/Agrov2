@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 import './Manufacturing.css'
 import manudev from "../../Assets/resourse/grey_pattern.webp";
 import manuicon from '../../Assets/Environment/icon.png'
-import manuimg from '../../Assets/Environment/img.jpg'
+import manuimg from '../../Assets/Manufacturing/m1.jpg'
 
 const Manufacturing = () => {
     return (
@@ -18,12 +18,12 @@ const Manufacturing = () => {
         <Container>
           <div className="manubanner">
             <Grid container spacing={2}>
-              <Grid item xs={5}>
+              <Grid item lg={6} md={6} sm={12} xs={12}>
                 <div className="manufacturingtext">
                   <h2>FOOD PROCESSING AND MANUFACTURING</h2>
                 </div>
               </Grid>
-              <Grid item xs={7}>
+              <Grid item lg={6} md={6} sm={12} xs={12}>
                 <div className="manufacturingtext">
                   <p>
                     AGROVERSE began its agro-food processing and manufacturing
@@ -48,13 +48,13 @@ const Manufacturing = () => {
         <div className="manudetails ">
           <Container>
             <div className="manusubbanner ">
-              <Grid  container spacing={2}>
-                <Grid item xs={6}>
+              <Grid container spacing={2}>
+                <Grid item lg={6} md={6} sm={12} xs={12}>
                   <div className="manuimg">
                     <img src={manuimg} alt="" srcset="" />
                   </div>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item lg={6} md={6} sm={12} xs={12}>
                   <div className="manuitemdetails">
                     <div className="manucontent">
                       <h3>

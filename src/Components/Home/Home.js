@@ -7,6 +7,7 @@ import Environment from '../Environment/Environment';
 
 
 import FormPage from '../FormPage/FormPage';
+import Header from '../Header/Header';
 import Navbar from '../Navbar';
 
 
@@ -22,6 +23,7 @@ const Home = () => {
            
            <Navbar/>        
            {/* <CarousalBanner/> */}
+           {/* <Header></Header> */}
            <Banner/>
            <BannerDevider/>
            <SubBanner/>

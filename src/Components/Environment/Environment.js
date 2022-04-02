@@ -17,7 +17,7 @@ import SdgButton from '../styles/SdgButton.style';
 const Environment = () => {
     return (
       <>
-        <Container className=" mx-auto">
+        <Container className=" envcontainer mx-auto">
           <div>
             <img className="img-fluid" src={devider} alt="" srcset="" />
             <div className="text-center mb-2 pb-3">
@@ -39,7 +39,7 @@ const Environment = () => {
             </div>
 
             <div className="grid-container">
-              <Grid container spacing={3}>
+              <Grid className='envgrid' container spacing={3}>
                 <Grid item lg={4} md={4} sm={12} xs={12}>
                   <div class="flip-card">
                     <div class="flip-card-inner">
@@ -144,10 +144,11 @@ const Environment = () => {
               </Grid>
             </div>
           </div>
-          <div className="env-button   p-5">
+          <div className="env-button p-5">
             <Link to="/sdg">
               {" "}
-              <SdgButton className="text-center">Discover More</SdgButton>
+              
+              <SdgButton className="text-left">Discover More</SdgButton>
             </Link>
           </div>
         </Container>

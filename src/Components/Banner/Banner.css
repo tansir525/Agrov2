@@ -164,7 +164,7 @@
     }
     .responsive {
         overflow-x: hidden;
-        background-image: url(../../Assets/image.jpg);
+        /* background-image: url(../../Assets/image.jpg); */
         margin-left: 0px;
         margin-top: 0px;
         background-size: cover;

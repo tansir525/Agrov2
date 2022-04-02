@@ -20,3 +20,16 @@
 .parafooter {
     font-weight: 200;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 570px) {
+    .cusfooter {
+        display: none;
+    }
+    .parafooter {
+        display: none;
+    }
+    .footerlogo img {
+        height: 20px;
+        width: 200px;
+    }
+}

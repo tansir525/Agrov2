@@ -10,12 +10,12 @@ const Farming = () => {
         </div>
         <Container className="customfarming">
           <Grid className="customfarming" container spacing={0}>
-            <Grid item xs={6}>
+            <Grid item lg={6} md={6} sm={12} xs={12}>
               <div className="farmingtitle">
                 <h3>Agro Farming</h3>
               </div>
             </Grid>
-            <Grid item xs={6}>
+            <Grid item lg={6} md={6} sm={12} xs={12}>
               <p>
                 AGROVERSE started its agro-farming industry with an aim to
                 propel the agro-food business through the application of new
