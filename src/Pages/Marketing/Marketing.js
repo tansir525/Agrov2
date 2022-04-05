@@ -81,13 +81,11 @@ const Marketing = () => {
                       {/* <h2 class="card-title">hgfd</h2> */}
                       <img src={g1} alt="" srcset="" />
                       <p class="card-desc">
-                        Pinnipeds, commonly known as seals,[a] are a widely
-                        distributed and diverse clade of carnivorous,
-                        fin-footed, semiaquatic marine mammals. They comprise
-                        the extant families Odobenidae (whose only living member
-                        is the walrus), Otariidae (the eared seals: sea lions
-                        and fur seals), and Phocidae (the earless seals, or true
-                        seals).
+                        
+                        Our Green campaign awareness is about letting our customers
+                        know that we are in it for the right reasons. These
+                        days, we can support ourself and be a force for good
+                        when you adopt green marketing practices. 
                       </p>
                     </div>
                   </div>
@@ -98,13 +96,9 @@ const Marketing = () => {
                       {/* <h2 class="card-title">General trading</h2> */}
                       <img src={g2} alt="" srcset="" />
                       <p class="card-desc">
-                        Pinnipeds, commonly known as seals,[a] are a widely
-                        distributed and diverse clade of carnivorous,
-                        fin-footed, semiaquatic marine mammals. They comprise
-                        the extant families Odobenidae (whose only living member
-                        is the walrus), Otariidae (the eared seals: sea lions
-                        and fur seals), and Phocidae (the earless seals, or true
-                        seals).
+                        Our effective strategy for green marketing is “Green
+                        packaging”. Companies can leverage eco-friendly
+                        packaging to help draw in new eco-conscious customers.
                       </p>
                     </div>
                   </div>
@@ -115,13 +109,11 @@ const Marketing = () => {
                       {/* <h2 class="card-title">Advertising</h2> */}
                       <img src={marketingcard} alt="" srcset="" />
                       <p class="card-desc">
-                        Pinnipeds, commonly known as seals,[a] are a widely
-                        distributed and diverse clade of carnivorous,
-                        fin-footed, semiaquatic marine mammals. They comprise
-                        the extant families Odobenidae (whose only living member
-                        is the walrus), Otariidae (the eared seals: sea lions
-                        and fur seals), and Phocidae (the earless seals, or true
-                        seals).
+                        Our one of the most important green marketing strategies
+                        is to design green products and services from the
+                        beginning. This means implementing green strategies
+                        during the planning and designing stages of your
+                        products, so they become more eco-friendly.
                       </p>
                     </div>
                   </div>

@@ -58,7 +58,7 @@ const Manufacturing = () => {
                   <div className="manuitemdetails">
                     <div className="manucontent">
                       <h3>
-                        we committed to guaranteeing the highest quality &
+                        We are committed to guaranteeing the highest quality &
                         meeting customer satisfaction standards.
                       </h3>
                       <p>
@@ -79,11 +79,14 @@ const Manufacturing = () => {
             <div className="pt-5">
               <Grid container spacing={0}>
                 <Grid item xs={4}>
-                  <h3>Lorem ipsum dolor sit amet.</h3>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Ullam ab optio laudantium! Recusandae, iste adipisci?
-                  </p>
+                  <div className="manucontent">
+                    <h3>We work closely with farmers,</h3>
+                    <p>
+                      source raw materials directly from them, and authentic
+                      suppliers and processes and manufactures agro-food
+                      products to fulfill customers' demands.
+                    </p>
+                  </div>
                 </Grid>
                 <Grid item xs={4}></Grid>
                 <Grid item xs={4}>
@@ -95,11 +98,16 @@ const Manufacturing = () => {
               <Grid container spacing={0}>
                 <Grid item xs={4}></Grid>
                 <Grid item xs={4}>
-                  <h3>Lorem ipsum dolor sit amet.</h3>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Ullam ab optio laudantium! Recusandae, iste adipisci?
-                  </p>
+                  <div className="manucontent">
+                    {" "}
+                    <h3>We strive to improve the manufacturing process</h3>
+                    <p>
+                     and all the offered range is gone through different parameters
+                      and checked by Quality Control Unit to ensure high-quality
+                      standards, fast delivery, and overall a great customer
+                      experience.
+                    </p>
+                  </div>
                 </Grid>
                 <Grid item xs={4}></Grid>
               </Grid>
@@ -107,11 +115,15 @@ const Manufacturing = () => {
                 <Grid item xs={4}></Grid>
                 <Grid item xs={4}></Grid>
                 <Grid item xs={4}>
-                  <h3>Lorem ipsum dolor sit amet.</h3>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Ullam ab optio laudantium! Recusandae, iste adipisci?
-                  </p>
+                  <div className="manucontent">
+                    <h3>We ensure minimum waste of food </h3>
+                    <p>
+                      by eliminating the factors through food processing and
+                      aspires to promote sustainable patterns of consumption and
+                      production and reduce production and post-harvest waste
+                      and losses.
+                    </p>
+                  </div>
                 </Grid>
               </Grid>
             </div>
